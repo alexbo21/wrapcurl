@@ -1,0 +1,95 @@
+.startupWindow{
+    height:100%;
+    width:100%;
+    /*  */
+    position: absolute;
+    top:0px;
+    left:0px;right:0px;
+    bottom:0px;
+    /*  */
+}
+
+
+.startupContentCenter{
+    width:50%;
+    height:25%;
+    /*  */
+    position: absolute;
+    /*  */
+    top:33.5%;
+    left:25%;right:25%;
+    bottom:33.5%;
+}
+
+
+.startupContentLogo{
+    width:50%;
+    /*  */
+    position: absolute;
+    /*  */
+    top:15%;
+    right:25%;left:25%;
+    
+}
+
+.startupContentLogoText{
+    font-family:Nunito;
+    color:#ff66a3;
+    font-weight:800;
+    font-size:67.5pt;
+    /*  */
+    position: absolute;
+    
+    left:8.5%;
+    bottom:7.5%;
+}
+
+
+/* Loading Dots */
+    .loadingDot1{
+        height:30pt;width:30pt;
+        background:#f2f2f2;
+        border-radius:100%;
+        /*  */
+        position: absolute;
+        bottom:-10%;
+        left:31.5%;
+        animation-name:loadingDot;
+        animation-duration:4s;
+        animation-delay:0s;
+        animation-iteration-count: infinite;
+    }
+    .loadingDot2{
+        height:30pt;width:30pt;
+        background:#f2f2f2;
+        border-radius:100%;
+        /*  */
+        position: absolute;
+        bottom:-10%;
+        left:46.5%;
+        animation-name:loadingDot;
+        animation-duration:4s;
+        animation-delay:1s;
+        animation-iteration-count: infinite;
+    }
+    .loadingDot3{
+        height:30pt;width:30pt;
+        background:#f2f2f2;
+        border-radius:100%;
+        /*  */
+        position: absolute;
+        bottom:-10%;
+        left:61.5%;
+        animation-name:loadingDot;
+        animation-duration:4s;
+        animation-delay:1.75s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes loadingDot {
+        0%{background:#ffe6e6;}
+        40%{background:#ffe6e6;}
+        50%{background:#f2f2f2;}
+        90%{background:#f2f2f2;}
+        100%{background:#ffe6e6;}
+    }
