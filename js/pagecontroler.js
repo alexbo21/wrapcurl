@@ -6,8 +6,6 @@ let pages = 1;
 // openPage(page)
 
 openPage(1); //Opening Homepage By Defualt
-openPage("");
-
 
 
 function openPage(page){
