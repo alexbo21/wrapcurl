@@ -30,7 +30,9 @@ function openPage(page){
             i--;
 
             if (i < 0){
-                setInterval(function(){close();}, 500)
+                setInterval(function(){
+                    close();
+                }, 500)
             }
         }, 1125)
     }
